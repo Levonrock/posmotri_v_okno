@@ -181,7 +181,7 @@ input[type="checkbox"]:focus-visible {
   white-space: nowrap;
 }
 
-/* стилизация для кнопки*/
+/* стилизация  кнопки*/
 .button {
   cursor: pointer;
   display: flex;
