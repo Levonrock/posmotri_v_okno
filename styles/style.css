@@ -318,5 +318,5 @@ input[type="checkbox"]:focus {
 
 .content__card-link:hover {
   text-decoration: underline;
-  text-underline-position: under;
+  text-underline-position: auto;
 }
