@@ -74,7 +74,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  width: 711;
+  width: 711px;
   height: 386px;
 }
 
@@ -129,7 +129,7 @@ ol {
   line-height: normal;
 }
 
-.search-form__label:focus {
+.search-form__textfield:focus {
   outline: none;
 }
 
@@ -138,11 +138,6 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label:active {
-  border: 1px solid #fff;
-}
-
-/*раpобраться с hover*/
 .search-form__checkbox-list {
   display: flex;
 }
@@ -178,8 +173,9 @@ input[type="checkbox"]+span {
   block-size: 15px;
 }
 
-.search-form__label:hover {
+.search-form__checkbox-list .search-form__label:hover  {
   text-decoration: underline;
+  text-underline-position: under;
 }
 
 input[type="checkbox"]:focus {
@@ -283,8 +279,8 @@ input[type="checkbox"]:focus {
 }
 
 .content__video-card-title {
+  font-family: Oswald, sans-serif;
   max-width: 200px;
-  min-height: 30px;
   overflow: hidden;
   font-weight: 700;
   font-size: 30px;
