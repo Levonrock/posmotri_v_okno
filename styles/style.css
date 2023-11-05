@@ -65,6 +65,10 @@ ol {
   margin: 133px 30px;
 }
 
+template.error-template {
+  margin: 133px 30px;
+}
+
 .result {
   display: flex;
   flex-direction: column;
