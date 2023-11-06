@@ -62,11 +62,8 @@ ol {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  margin: 133px 30px;
-}
-
-template.error-template {
-  margin: 133px 30px;
+  margin: 0 30px;
+  inline-size: 100%;
 }
 
 .result {
